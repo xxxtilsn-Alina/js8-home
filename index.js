@@ -7,7 +7,7 @@ const friends = ["Mango", "Poly", "Kivs", "Ajax"];
 let string = "";
 
 for (let i = 0; i < friends.length; i++) {
-  string = string + friends[i];
+  string = string + friends[i] + ", ";
   console.log(string);
 }
 
