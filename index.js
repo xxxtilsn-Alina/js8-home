@@ -36,7 +36,6 @@ console.log(cardToInsert);
 console.log(cards);
 
 // 5. Оновити
-const newCard = ["Я оновилась"];
 const cardToUpdate = cards.splice(2, 1, "Карточка-4 оновилась");
 console.log(cardToUpdate);
 console.log(cards);
